@@ -32,6 +32,11 @@ body {
     text-align: center;
 }
 
+.stats-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
 }
@@ -73,3 +78,25 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#searchInput {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #searchInput:focus {
+    outline: none;
+    border-color: #5e9ed6;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #5e9ed6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
